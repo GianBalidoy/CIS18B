@@ -5,7 +5,7 @@ import animal.Animal;
 public class Lion implements Animal
 {
     private String name;
-    private final String type = "lion";
+    private final String type = "Lion";
     
     public String speak()
     {
@@ -18,11 +18,6 @@ public class Lion implements Animal
     }
     
     public String getName()
-    {
-        return name;
-    }
-    
-    public String getType()
     {
         return type;
     }
