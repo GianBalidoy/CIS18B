@@ -9,7 +9,7 @@ public interface Animal
     
     default String getName()
     {
-        return "This animal has no name!";
+        return "This animal is unknown!";
     }
     
     default String getType()
